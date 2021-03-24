@@ -16,5 +16,5 @@ jobs:
       run: |
         yarn build:tasks
         yarn build:webpack
-      - uses: doyensec/electronegativity-action@v1.1
-      - uses: github/codeql-action/upload-sarif@v1
+    - uses: doyensec/electronegativity-action@v1.1
+    - uses: github/codeql-action/upload-sarif@v1
